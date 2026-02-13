@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Player Oficial Twitch</title>
+
 <style>
 body {
     margin: 0;
@@ -22,7 +23,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 40px rgba(0,0,0,0.7);
     overflow: hidden;
-    background-color: #6a0dad; /* Roxo mais forte dentro do player */
+    background-color: #6a0dad; /* Roxo dentro do player */
     position: relative;
 }
 
@@ -58,10 +59,8 @@ iframe {
 
 /* Responsivo */
 @media(max-width:768px){
-    <iframe 
-    src="https://player.twitch.tv/?channel=nickelodeonbrasil309873&parent=novidadesdanickonline-cloud.github.io"
-    allowfullscreen>
-</iframe>
+    iframe {
+        height: 300px;
     }
 }
 </style>
@@ -71,7 +70,7 @@ iframe {
 <div class="player-container">
     <div class="live-indicator">🔴 AO VIVO</div>
     <iframe 
-        src="https://player.twitch.tv/?channel=nickelodeonbrasil309873&parent=novidadesdanickonline.github.io"
+        src="https://player.twitch.tv/?channel=nickelodeonbrasil309873&parent=novidadesdanickonline-cloud.github.io"
         allowfullscreen>
     </iframe>
 </div>
